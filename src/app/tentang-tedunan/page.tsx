@@ -29,7 +29,7 @@ export default function TentangTedunanPage() {
         <div className="relative bg-[#112233] text-white overflow-hidden pb-20">
           <div className="absolute inset-0 z-0 opacity-40">
             <Image 
-              src="/images/Dokumentasi 8.jpg" 
+              src="/images/Tedunan.jpeg" 
               alt="Desa Tedunan" 
               fill 
               priority
@@ -69,7 +69,7 @@ export default function TentangTedunanPage() {
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-80 rounded-3xl overflow-hidden shadow-lg bg-gray-100">
               <Image 
-                src="/images/Dokumentasi 2.jpg" 
+                src="/images/Tedunan.jpeg" 
                 alt="Kehidupan di Desa Tedunan" 
                 fill 
                 className="object-cover"
@@ -160,7 +160,7 @@ export default function TentangTedunanPage() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col">
-                <div className="relative h-40 w-full"><Image src="/images/Dokumentasi 4.jpg" alt="Pertanian" fill className="object-cover" /></div>
+                <div className="relative h-40 w-full"><Image src="/images/Padi.jpeg" alt="Pertanian" fill className="object-cover" /></div>
                 <div className="p-4 flex flex-col flex-grow space-y-2">
                   <div className="p-2 bg-blue-50 text-blue-600 rounded-lg w-fit"><Sprout size={18} /></div>
                   <h3 className="font-bold text-gray-900">Pertanian</h3>
@@ -169,7 +169,7 @@ export default function TentangTedunanPage() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col">
-                <div className="relative h-40 w-full"><Image src="/images/Dokumentasi 6.jpg" alt="Perikanan" fill className="object-cover" /></div>
+                <div className="relative h-40 w-full"><Image src="/images/Ikan.jpeg" alt="Perikanan" fill className="object-cover" /></div>
                 <div className="p-4 flex flex-col flex-grow space-y-2">
                   <div className="p-2 bg-blue-50 text-blue-600 rounded-lg w-fit"><Fish size={18} /></div>
                   <h3 className="font-bold text-gray-900">Perikanan</h3>
@@ -178,7 +178,7 @@ export default function TentangTedunanPage() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col">
-                <div className="relative h-40 w-full"><Image src="/images/Dokumentasi 9.jpg" alt="UMKM" fill className="object-cover" /></div>
+                <div className="relative h-40 w-full"><Image src="/images/UMKM.jpeg" alt="UMKM" fill className="object-cover" /></div>
                 <div className="p-4 flex flex-col flex-grow space-y-2">
                   <div className="p-2 bg-blue-50 text-blue-600 rounded-lg w-fit"><Store size={18} /></div>
                   <h3 className="font-bold text-gray-900">UMKM</h3>
@@ -187,7 +187,7 @@ export default function TentangTedunanPage() {
               </div>
 
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col sm:col-span-2 lg:col-span-1">
-                <div className="relative h-40 w-full"><Image src="/images/Dokumentasi 10.jpg" alt="Potensi Pesisir" fill className="object-cover" /></div>
+                <div className="relative h-40 w-full"><Image src="/images/Pesisir.jpeg" alt="Potensi Pesisir" fill className="object-cover" /></div>
                 <div className="p-4 flex flex-col flex-grow space-y-2">
                   <div className="p-2 bg-blue-50 text-blue-600 rounded-lg w-fit"><Palmtree size={18} /></div>
                   <h3 className="font-bold text-gray-900">Potensi Pesisir</h3>

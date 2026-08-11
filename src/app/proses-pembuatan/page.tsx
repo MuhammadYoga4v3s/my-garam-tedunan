@@ -26,7 +26,7 @@ export default function ProsesPembuatanPage() {
       title: "Persiapan Lahan Tambak",
       desc: "Lahan tambak dibersihkan dan diratakan agar air dapat tersenang dengan merata. Pematang tambak diperiksa dan diperkuat untuk menjaga aliran air.",
       fact: "Lahan yang baik menentukan keberhasilan produksi garam.",
-      image: "/images/Dokumentasi 1.jpg",
+      image: "/images/Dokumentasi 12.jpeg",
       icon: <Landmark size={20} className="text-blue-600" />
     },
     {
@@ -34,7 +34,7 @@ export default function ProsesPembuatanPage() {
       title: "Pemasukan Air Laut",
       desc: "Air laut dialirkan ke petakan pertama melalui saluran. Volume dan ketinggian air diatur agar proses penguapan dapat berlangsung optimal.",
       fact: "Air laut yang bersih akan menghasilkan kualitas garam yang lebih baik.",
-      image: "/images/Dokumentasi 2.jpg",
+      image: "/images/Dokumentasi 13.jpeg",
       icon: <Waves size={20} className="text-blue-600" />
     },
     {
@@ -58,7 +58,7 @@ export default function ProsesPembuatanPage() {
       title: "Kristalisasi",
       desc: "Ketika konsentrasi garam mencapai titik tertentu, kristal garam mulai terbentuk di permukaan tambak.",
       fact: "Proses ini terjadi secara alami dan membutuhkan kesabaran.",
-      image: "/images/Dokumentasi 5.jpg",
+      image: "/images/Dokumentasi 3.jpg",
       icon: <Sparkles size={20} className="text-blue-600" />
     },
     {
@@ -66,7 +66,7 @@ export default function ProsesPembuatanPage() {
       title: "Pemanenan",
       desc: "Garam yang telah mengkristal dikumpulkan menggunakan alat khusus lalu ditumpuk di pematang tambak.",
       fact: "Waktu panen biasanya dilakukan pada pagi hari saat cuaca cerah.",
-      image: "/images/Dokumentasi 6.jpg",
+      image: "/images/hero-garam.jpeg",
       icon: <ShoppingBag size={20} className="text-blue-600" />
     },
     {
@@ -74,7 +74,7 @@ export default function ProsesPembuatanPage() {
       title: "Pengeringan",
       desc: "Garam dijemur kembali untuk mengurangi kadar air agar garam lebih kering dan tahan disimpan.",
       fact: "Pengeringan yang baik menjaga garam tetap putih dan tidak menggumpal.",
-      image: "/images/Dokumentasi 7.jpg",
+      image: "/images/Dokumentasi 9.jpg",
       icon: <Flame size={20} className="text-blue-600" />
     },
     {
@@ -82,7 +82,7 @@ export default function ProsesPembuatanPage() {
       title: "Penyimpanan",
       desc: "Garam yang telah kering disimpan di tempat yang bersih dan kering agar kualitasnya tetap terjaga sebelum didistribusikan atau diolah.",
       fact: "Kelembapan adalah musuh utama kualitas garam.",
-      image: "/images/Dokumentasi 8.jpg",
+      image: "/images/Dokumentasi 14.jpeg",
       icon: <Home size={20} className="text-blue-600" />
     },
   ];

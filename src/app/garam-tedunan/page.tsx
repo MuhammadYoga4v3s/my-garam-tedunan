@@ -179,11 +179,11 @@ export default function GaramTedunanPage() {
               {/* Statistik */}
               <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200">
                 <div className="space-y-1">
-                  <div className="flex items-center gap-1.5 text-blue-600 font-bold text-lg"><Users size={20} /> ±120</div>
+                  <div className="flex items-center gap-1.5 text-blue-600 font-bold text-lg"><Users size={20} /> ±20</div>
                   <p className="text-[11px] text-gray-500 uppercase tracking-wider">Petani Garam Aktif</p>
                 </div>
                 <div className="space-y-1">
-                  <div className="flex items-center gap-1.5 text-blue-600 font-bold text-lg"><Maximize2 size={20} /> ±85 Ha</div>
+                  <div className="flex items-center gap-1.5 text-blue-600 font-bold text-lg"><Maximize2 size={20} /> ±10 Ha</div>
                   <p className="text-[11px] text-gray-500 uppercase tracking-wider">Luas Lahan Tambak</p>
                 </div>
                 <div className="space-y-1">
@@ -199,7 +199,7 @@ export default function GaramTedunanPage() {
                 <Image src="/images/hero-garam.jpg" alt="Petani Garam" fill className="object-cover" />
               </div>
               <div className="relative h-36 rounded-xl overflow-hidden shadow-sm">
-                <Image src="/images/garem-png.jpg" alt="Garam" fill className="object-cover" />
+                <Image src="/images/Dokumentasi 9.jpg" alt="Garam" fill className="object-cover" />
               </div>
               <div className="relative h-36 rounded-xl overflow-hidden shadow-sm">
                 <Image src="/images/Dokumentasi 7.jpg" alt="Aktivitas" fill className="object-cover" />

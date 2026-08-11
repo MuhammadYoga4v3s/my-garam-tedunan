@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export default function ProductsSection() {
@@ -26,25 +27,25 @@ export default function ProductsSection() {
   ];
 
   return (
-    <section className="space-y-8">
+    <div className="space-y-8 my-16">
       {/* Header Bagian Produk */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div className="space-y-2">
           <span className="text-xs font-semibold text-blue-600 uppercase tracking-widest bg-blue-100 px-3 py-1 rounded-full">
-            Lebih dari Sekadar Garam[cite: 1]
+            Lebih dari Sekadar Garam
           </span>
           <h2 className="text-3xl font-bold text-gray-900">Produk Turunan Garam</h2>
           <p className="text-gray-600 max-w-xl text-sm">
-            Garam Tedunan memiliki banyak potensi pengembangan menjadi berbagai produk bernilai tambah yang bermanfaat bagi kehidupan sehari-hari[cite: 1].
+            Garam Tedunan memiliki banyak potensi pengembangan menjadi berbagai produk bernilai tambah yang bermanfaat bagi kehidupan sehari-hari.
           </p>
         </div>
         <div>
-          <a
-            href="#"
+          <Link
+            href="/produk-turunan"
             className="inline-flex items-center gap-2 bg-[#1e3a5f] hover:bg-blue-900 text-white px-5 py-2.5 rounded-xl text-sm font-medium transition shadow"
           >
             Jelajahi Produk Turunan <ArrowRight size={16} />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -74,6 +75,6 @@ export default function ProductsSection() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
