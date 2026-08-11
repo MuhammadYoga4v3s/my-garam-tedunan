@@ -23,18 +23,20 @@ export default function Navbar() {
 
       {/* Menu Links */}
       <div className="hidden lg:flex items-center gap-8 text-sm font-medium">
-        <Link href="#" className="hover:text-blue-300 transition">Beranda</Link>
+        <Link href="/" className="hover:text-blue-300 transition">Beranda</Link>
         <Link href="/tentang-tedunan" className="hover:text-blue-300 transition">Tentang Tedunan</Link>
         <Link href="/garam-tedunan" className="hover:text-blue-300 transition">Garam Tedunan</Link>
         <Link href="/proses-pembuatan" className="hover:text-blue-300 transition">Proses Pembuatan</Link>
-        <Link href="#" className="hover:text-blue-300 transition">Produk Turunan</Link>
-        <Link href="#" className="hover:text-blue-300 transition">Infografis & Galeri</Link>
+        <Link href="/produk-turunan" className="hover:text-blue-300 transition">Produk Turunan</Link>
+        <Link href="/infografis-galeri" className="hover:text-blue-300 transition">Infografis & Galeri</Link>
       </div>
 
-      {/* Tombol Kontak */}
+      {/* Tombol Kontak (Langsung ke WhatsApp) */}
       <div>
         <a 
-          href="#kontak" 
+          href="https://api.whatsapp.com/send?phone=6285157331787" 
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-medium shadow transition"
         >
           <PhoneCall size={16} /> Kontak Kami

@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Phone, MapPin, Mail } from "lucide-react";
+import Link from "next/link";
+import { Phone, MapPin, Mail, Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -31,16 +32,17 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="font-bold text-lg text-blue-400">Tautan Cepat</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="#" className="hover:text-white transition">Beranda</a></li>
-            <li><a href="#" className="hover:text-white transition">Tentang Tedunan</a></li>
-            <li><a href="#" className="hover:text-white transition">Proses Pembuatan</a></li>
-            <li><a href="#" className="hover:text-white transition">Produk Turunan</a></li>
-            <li><a href="#" className="hover:text-white transition">Infografis & Galeri</a></li>
+            <li><Link href="/" className="hover:text-white transition">Beranda</Link></li>
+            <li><Link href="/tentang-tedunan" className="hover:text-white transition">Tentang Tedunan</Link></li>
+            <li><Link href="/garam-tedunan" className="hover:text-white transition">Garam Tedunan</Link></li>
+            <li><Link href="/proses-pembuatan" className="hover:text-white transition">Proses Pembuatan</Link></li>
+            <li><Link href="/produk-turunan" className="hover:text-white transition">Produk Turunan</Link></li>
+            <li><Link href="/infografis-galeri" className="hover:text-white transition">Infografis & Galeri</Link></li>
           </ul>
         </div>
 
         {/* Kolom 3: Kontak Kami */}
-        <div className="space-y-4" id="kontak-kami">
+        <div className="space-y-4">
           <h3 className="font-bold text-lg text-blue-400">Kontak Kami</h3>
           <div className="space-y-3 text-sm text-gray-300">
             <div className="flex items-start gap-3">
@@ -49,11 +51,21 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-3">
               <Phone size={18} className="text-blue-400 shrink-0" />
-              <span>+62 812-3456-7890</span>
+              <a href="https://api.whatsapp.com/send?phone=6285157331787" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                +62 851-5733-1787
+              </a>
             </div>
             <div className="flex items-center gap-3">
               <Mail size={18} className="text-blue-400 shrink-0" />
-              <span>info@garamtedunan.com</span>
+              <a href="mailto:desa.tedunan17@gmail.com" className="hover:underline">
+                desa.tedunan17@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center gap-3">
+              <Globe size={18} className="text-blue-400 shrink-0" />
+              <a href="https://tedunan-wedung.desa.id/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                tedunan-wedung.desa.id
+              </a>
             </div>
           </div>
         </div>
@@ -61,9 +73,9 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="max-w-6xl mx-auto px-6 border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
-        &copy; {new Date().getFullYear()} Garam Tedunan, Kabupaten Demak. All rights reserved.
-      </div>
+        <div className="max-w-6xl mx-auto px-6 border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
+        &copy; {new Date().getFullYear()} Pemerintah Desa Tedunan. | Developed by KKN-T Undip 88 2026.
+        </div>
     </footer>
   );
 }
