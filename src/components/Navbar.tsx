@@ -24,9 +24,9 @@ export default function Navbar() {
       {/* Menu Links */}
       <div className="hidden lg:flex items-center gap-8 text-sm font-medium">
         <Link href="#" className="hover:text-blue-300 transition">Beranda</Link>
-        <Link href="#" className="hover:text-blue-300 transition">Tentang Tedunan</Link>
-        <Link href="#" className="hover:text-blue-300 transition">Garam Tedunan</Link>
-        <Link href="#" className="hover:text-blue-300 transition">Proses Pembuatan</Link>
+        <Link href="/tentang-tedunan" className="hover:text-blue-300 transition">Tentang Tedunan</Link>
+        <Link href="/garam-tedunan" className="hover:text-blue-300 transition">Garam Tedunan</Link>
+        <Link href="/proses-pembuatan" className="hover:text-blue-300 transition">Proses Pembuatan</Link>
         <Link href="#" className="hover:text-blue-300 transition">Produk Turunan</Link>
         <Link href="#" className="hover:text-blue-300 transition">Infografis & Galeri</Link>
       </div>
